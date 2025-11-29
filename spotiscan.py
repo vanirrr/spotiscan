@@ -6,10 +6,10 @@ import time
 import os
 from google import genai
 
-CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "dc005f00915b432f9337ca49a3f7ec71")
-CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "1f8016fc15d04a708da6a01ffe750761")
-REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI", "http://127.0.0.1:8888/callback")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAr0IE-J2pzi8UJ9i3DSlQWqT2Sykemuh8")
+CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
+REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 SCOPE = "user-library-read playlist-modify-private playlist-modify-public playlist-read-private"
 
