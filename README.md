@@ -24,3 +24,5 @@ js go to spotify for developpers and make an app and you'll find them there
 you'll figure it out on ya own theres chat gpt
 
 ***EXAMPLE USAGE***: python3 spotiscan.py -h to see how to use it man ion got time to explain
+
+ok i might need to host this. js make of it what u will man
